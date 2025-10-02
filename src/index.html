@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="overview">
+            <div class="avatar"></div>
+            <div class="summary">
+                <div class="summary-entry">Name: Max Mustermann</div>
+                <div class="summary-entry">Abteilung: IT</div>
+                <div class="summary-entry">Start: 01.09.2024</div>
+            </div>
+        </div>
+
+        <form class="form">
+            <div class="form-input">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Max Mustermann" required>
+            </div>
+
+            <div class="form-input">
+                <label for="startdate">Ausbildungsbeginn</label>
+                <input type="date" id="startdate" name="startdate" value="2023-08-01" required>
+            </div>
+
+            <div class="form-input">
+                <label for="department">Abteilung</label>
+                <input type="text" id="department" name="department" placeholder="IT" required>
+            </div>
+
+            <button type="submit" class="submit">Absenden</button>
+        </form>
+    </div>
+</body>
+</html>
